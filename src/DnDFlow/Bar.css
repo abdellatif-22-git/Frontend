@@ -1,0 +1,55 @@
+.toolbar-container {
+  position: fixed;
+  left: 102%; 
+  top: 0; 
+  width: 200px; 
+  background-color: #f4f4f4; 
+  border-right: 1px solid #ccc; 
+  padding: 10px; 
+  z-index: 1000; 
+  height: 200px; 
+  display: flex;
+  flex-direction: column; 
+}
+
+.toolbar-section {
+  margin-bottom: 10px; 
+}
+
+.toolbar-section label {
+  display: flex;
+  align-items: center; 
+  margin-bottom: 10px;
+}
+
+.logo {
+  margin-right: 8px; 
+}
+
+.small-input {
+  width: 60px;
+  margin-left: 5px; 
+}
+
+.toggle-button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px; 
+}
+
+.second-toolbar {
+  border-top: 1px solid #ccc; 
+  padding-top: 10px; 
+}
+
+.text-styling-icons {
+  display: flex;
+  justify-content: space-between; 
+  font-size: 18px; 
+  margin-top: 10px; 
+}

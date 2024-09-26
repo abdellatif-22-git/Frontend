@@ -1,0 +1,40 @@
+.sidebar {
+  width: 200px;
+  padding: 20px;
+  top:0px;
+  background-color: #f4f4f4;
+  height: 100%; 
+  max-height: 100vh; 
+  overflow-y: auto; 
+  overflow-x: hidden; 
+  box-sizing: border-box;
+  position: absolute;
+  left: 55px; 
+}
+
+.group {
+  margin-bottom: 20px;
+}
+
+.group-header {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #ddd;
+  border-radius: 11px;
+}
+
+.group-content {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.shape-item {
+  cursor: pointer;
+}
+
+.shape-item.clicked {
+  cursor: pointer;
+  cursor: move; 
+}
